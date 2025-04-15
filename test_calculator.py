@@ -8,7 +8,7 @@ from calculator import *
 class TestCalculator(unittest.TestCase):
 
     def test_multiply(self): # 3 assertions
-        self.asserEqual(multiply(3,3),9)
+        self.assertEqual(multiply(3,3),9)
         self.assertNotEqual(multiply(3,2),9)
         self.assertEqual(multiply(0,3),0)
         self.assertEqual(multiply(-1,2),-2)
