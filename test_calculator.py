@@ -1,3 +1,7 @@
+#https://github.com/antsanchez2001/lab-10-AS-SL
+#Partner 1: Anthony Sanchez
+#Partner 2: Seungmin Lee
+
 import unittest
 from calculator import *
 
